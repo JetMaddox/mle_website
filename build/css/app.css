@@ -322,7 +322,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -498,7 +498,7 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: "Rhodium Libre", serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5003,7 +5003,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5103,7 +5103,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6095,6 +6095,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important;
   }
+}
+
+body {
+  background-image: url("/img/bg.png");
 }
 
 /*# sourceMappingURL=app.css.map*/

@@ -6098,15 +6098,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 body {
-  background-image: url("/img/bg.png");
-}
-
-.btn-primary {
-  width: 100%;
+  background: #fff url("/img/bg.png") no-repeat fixed;
+  background-size: cover;
 }
 
 #btn-ts {
-  width: 50%;
   margin-top: 10px;
   background-color: #ff7473;
   border: #ff7473;
@@ -6117,7 +6113,6 @@ body {
 }
 
 #btn-contact {
-  width: 50%;
   margin-top: 10px;
   background-color: #47b8e0;
   border: #47b8e0;

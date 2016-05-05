@@ -3,6 +3,13 @@ body {
   background-size: cover;
 }
 
+.logo {
+	display: block;
+	margin: auto;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
 #btn-ts {
 	margin-top: 10px;
 	background-color: #ff7473;
@@ -19,4 +26,19 @@ body {
 }
 #btn-contact:hover {
 	background-color: #ff7473;
+}
+.footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #ffffff;
+}
+.footerholder a {
+	color: #0080ff;
+}
+.footer {
+    height: 100px;
+    margin: auto;
+    width: 400px;
 }

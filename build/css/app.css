@@ -2254,27 +2254,27 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc952;
-  border-color: #ffc952;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ffb91f;
-  border-color: #ffb615;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #ffb91f;
-  border-color: #ffb615;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ffb91f;
-  border-color: #ffb615;
+  background-color: transparent;
+  border-color: transparent;
   background-image: none;
 }
 
@@ -2283,18 +2283,18 @@ fieldset[disabled] a.btn {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #faac00;
-  border-color: #d29000;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus {
-  background-color: #ffc952;
-  border-color: #ffc952;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary.disabled:hover, .btn-primary:disabled:hover {
-  background-color: #ffc952;
-  border-color: #ffc952;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-secondary {
@@ -2523,31 +2523,31 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary-outline {
-  color: #ffc952;
+  color: transparent;
   background-image: none;
   background-color: transparent;
-  border-color: #ffc952;
+  border-color: transparent;
 }
 
 .btn-primary-outline:focus, .btn-primary-outline.focus, .btn-primary-outline:active, .btn-primary-outline.active,
 .open > .btn-primary-outline.dropdown-toggle {
   color: #fff;
-  background-color: #ffc952;
-  border-color: #ffc952;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary-outline:hover {
   color: #fff;
-  background-color: #ffc952;
-  border-color: #ffc952;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-primary-outline.disabled:focus, .btn-primary-outline.disabled.focus, .btn-primary-outline:disabled:focus, .btn-primary-outline:disabled.focus {
-  border-color: #ffe9b8;
+  border-color: rgba(51, 51, 51, 0);
 }
 
 .btn-primary-outline.disabled:hover, .btn-primary-outline:disabled:hover {
-  border-color: #ffe9b8;
+  border-color: rgba(51, 51, 51, 0);
 }
 
 .btn-secondary-outline {
@@ -3843,7 +3843,7 @@ input[type="button"].btn-block {
 
 .card-primary-outline {
   background-color: transparent;
-  border-color: #ffc952;
+  border-color: transparent;
 }
 
 .card-secondary-outline {
@@ -6109,24 +6109,34 @@ body {
   padding-bottom: 5%;
 }
 
+.btn-primary {
+  border: 2px solid #ff7473;
+}
+
+.btn-primary:hover {
+  background-color: #ff7473;
+}
+
 #btn-ts {
   margin-top: 10px;
-  background-color: #ff7473;
+  background-color: trasnparent;
   border: #ff7473;
+  border: 2px solid #ffc952;
 }
 
 #btn-ts:hover {
-  background-color: #47b8e0;
+  background-color: #ffc952;
 }
 
 #btn-contact {
   margin-top: 10px;
-  background-color: #47b8e0;
+  background-color: transparent;
   border: #47b8e0;
+  border: 2px solid #ffc952;
 }
 
 #btn-contact:hover {
-  background-color: #ff7473;
+  background-color: #ffc952;
 }
 
 .footerholder {

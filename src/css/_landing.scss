@@ -9,23 +9,31 @@ body {
 	padding-top: 2%;
 	padding-bottom: 5%;
 }
+.btn-primary {
+	border: 2px solid #ff7473;
+}
+.btn-primary:hover {
+	background-color: #ff7473;
+}
 
 #btn-ts {
 	margin-top: 10px;
-	background-color: #ff7473;
+	background-color: trasnparent;
 	border: #ff7473;
+	border: 2px solid #ffc952;
 }
 #btn-ts:hover {
-	background-color: #47b8e0;
+	background-color: #ffc952;
 }
 
 #btn-contact {
 	margin-top: 10px;
-	background-color: #47b8e0;
+	background-color: transparent;
 	border: #47b8e0;
+	border: 2px solid #ffc952;
 }
 #btn-contact:hover {
-	background-color: #ff7473;
+	background-color: #ffc952;
 }
 .footerholder {
     background: none repeat scroll 0 0 transparent;
